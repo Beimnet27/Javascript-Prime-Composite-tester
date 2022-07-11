@@ -1,0 +1,23 @@
+form{
+			margin: 25%;
+			padding: 40px 30px 40px 30px;
+			border: solid 1px gray;
+			background: linear-gradient(-135deg, #1a0d19, #4158d0);
+			box-shadow: rgb(38, 24, 57) 25px 25px 40px 4px ;
+		}
+		h3{
+			text-align: center;
+			margin-top: 0px;
+			font-size: 25px;
+			background: linear-gradient(230deg, #cde, #dff);
+		}
+		input{
+			border-radius: 15px 7px;
+			height: 26px;
+		}
+		#sub{
+			position: right;
+			background: lightblue;
+
+			margin-left: 70px;
+		}
