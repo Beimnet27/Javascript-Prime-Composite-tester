@@ -30,4 +30,7 @@ function Algorithm()
 	}
 	}
 	}
+};
+function Calculator(){
+	document.getElementById("disp").innerText = "15";
 }
