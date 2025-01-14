@@ -31,6 +31,13 @@ function Algorithm()
 	}
 	}
 };
+var display = document.getElementById("disp");
+function Add(X){
+	display.value += X;
+}
 function Calculator(){
-	document.getElementById("disp").innerText = "15";
+	display.value = eval(display.value);
+}
+function Clear(){
+	display.value = "";
 }

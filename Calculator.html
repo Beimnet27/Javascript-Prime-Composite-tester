@@ -8,18 +8,22 @@
 </head>
 <body>
     <form action="">
-        <input type="number" id="disp" value="0" />
-        <input type="button" value="1" />
-        <input type="button" value="2" />
-        <input type="button" id="3" value="3" /><br>
-        <input type="button" value="4" />
-        <input type="button" value="5" />
-        <input type="button" value="6" /><br>
-        <input type="button" value="7" />
-        <input type="button" value="8" />
-        <input type="button" value="9" /><br>
-        <input type="button" value="C" />
-        <input type="button" value="0" />
+        <input type="text" id="disp" placeholder="0.00" readonly />
+        <input type="button" onclick="Add(1)" value="1" />
+        <input type="button" onclick="Add(2)" value="2" />
+        <input type="button" onclick="Add(3)" id="3" value="3" />
+        <input type="button" onclick="Add('+')" value="+"><br>
+        <input type="button" onclick="Add(4)" value="4" />
+        <input type="button" onclick="Add(5)" value="5" />
+        <input type="button" onclick="Add(6)" value="6" />
+        <input type="button" onclick="Add('-')" value="-"><br>
+        <input type="button" onclick="Add(7)" value="7" />
+        <input type="button" onclick="Add(8)" value="8" />
+        <input type="button" onclick="Add(9)" value="9" />
+        <input type="button" onclick="Add('*')" value="*"><br>
+        <input type="button" onclick="Add('/')" value="/">
+        <input type="button" onclick="Clear()" value="C" />
+        <input type="button" onclick="Add(0)" value="0" />
         <input type="submit" value="E" onclick="Calculator()"/>
 
     </form>
